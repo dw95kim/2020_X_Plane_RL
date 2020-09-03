@@ -1,0 +1,5 @@
+A
+750 version
+x and y of the lower-left and upper-right corners of the display, rel to the center of the instrument
+-77	-63
+ 77	 71

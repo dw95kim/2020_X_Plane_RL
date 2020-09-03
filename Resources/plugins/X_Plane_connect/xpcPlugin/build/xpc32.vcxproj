@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{63E6B1EC-E122-3E90-B7ED-38F7E08051B9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>xpc32</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xpc32.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.xpl</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">xpc32.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.xpl</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">xpc32.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.xpl</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xpc32.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.xpl</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32 -fno-stack-protector</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;XPLM200;LIN=1;CMAKE_INTDIR="Debug";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;XPLM200;LIN=1;CMAKE_INTDIR=\"Debug\";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -shared -rdynamic -nodefaultlibs -undefined_warning -m32 -fno-stack-protector</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/Debug/lin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/Debug/lin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32 -fno-stack-protector</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XPLM200;LIN=1;CMAKE_INTDIR="Release";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XPLM200;LIN=1;CMAKE_INTDIR=\"Release\";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -shared -rdynamic -nodefaultlibs -undefined_warning -m32 -fno-stack-protector</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/Release/lin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/Release/lin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32 -fno-stack-protector</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XPLM200;LIN=1;CMAKE_INTDIR="MinSizeRel";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XPLM200;LIN=1;CMAKE_INTDIR=\"MinSizeRel\";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -shared -rdynamic -nodefaultlibs -undefined_warning -m32 -fno-stack-protector</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/MinSizeRel/lin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/MinSizeRel/lin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -m32 -fno-stack-protector</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XPLM200;LIN=1;CMAKE_INTDIR="RelWithDebInfo";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XPLM200;LIN=1;CMAKE_INTDIR=\"RelWithDebInfo\";xpc32_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\SDK\CHeaders\XPLM;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\..\C\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -shared -rdynamic -nodefaultlibs -undefined_warning -m32 -fno-stack-protector</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/RelWithDebInfo/lin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/RelWithDebInfo/lin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin" "-BC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build" --check-stamp-file "C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin" "-BC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build" --check-stamp-file "C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin" "-BC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build" --check-stamp-file "C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin" "-BC:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build" --check-stamp-file "C:/Users/DWKim/Desktop/X_plane/X-Plane 11/Resources/plugins/XPlaneConnect-1.3-rc6/xpcPlugin/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\XPCPlugin.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\DataManager.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\Drawing.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\Log.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\Message.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\MessageHandlers.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\Timer.cpp" />
+    <ClCompile Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\UDPSocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DWKim\Desktop\X_plane\X-Plane 11\Resources\plugins\XPlaneConnect-1.3-rc6\xpcPlugin\build\ZERO_CHECK.vcxproj">
+      <Project>{B11E6B7C-C731-32DB-A9D6-BEECD5AA93FE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
